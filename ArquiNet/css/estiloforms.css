@@ -1,4 +1,12 @@
 /*formulário cadastro cliente*/
+div#form-login{
+	width: 400px;
+	height: 300px;
+	margin-top: 30px;
+	margin-left: 25%;
+	transform: none;
+
+}
 div#form-cad-cliente1{
 	width: 400px;
 	height: 300px;
