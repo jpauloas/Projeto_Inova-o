@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Registre-se Cliente</title>
+  <title>Registre-se Profissional</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsivo.css">
-  <link rel="stylesheet" href="css/estiloforms.css">
+  <link rel="stylesheet" href="css/estiloforms2.css">
 </head>
 
 <body>
@@ -99,29 +99,34 @@
 
   </section>
 
-
 <!--- formulário de cadastro---->
-
-  <h1>Faça parte da Nossa Rede!</h1>  
+  <div class="aa">
+  <h1>Faça parte da Nossa Rede!</h1>
 <div id="form-cad-cliente1" class="grid-4">
   <form method="post">
   <h2>Nome</h2> <input type="text" name="nome" placeholder="Nome" maxlength="30">
-  <h2>Sobrenome</h2><input type="text" name="sobrenome" placeholder="Sobrenome" maxlength="30">
+  <h2>Sobrenome</h2> <input type="text" name="sobrenome" placeholder="Sobrenome" maxlength="30">
   <h2>Região</h2> <input type="text" name="estado" placeholder="Escolha seu estado" maxlength="30">
-  <h2>Email</h2><input type="email" name="email" placeholder="Email" maxlength="30">  
+  <h2>Email<h2><input type="email" name="email" placeholder="Email" maxlength="30">  
+  <h2>Empresa que atua<h2> <input type="text" name="empresa" placeholder="empresa" maxlength="30">  
+  <h2>Registro CAU/CREA<h2> <input type="text" name="registro" placeholder="registro" maxlength="30">  
 </form>
 </div>
 
 <div id="form-cad-cliente2" class="grid-4">
-  <form method="post">
-  <h2>Nome de usuário</h2> <input type="text" name="nomeusuario" placeholder="Crie um nome de usuário" maxlength="30">
-  <h2>Senha</h2><input type="password" name="senha" placeholder="Crie uma senha" maxlength="30">
-  <h2>Confirme Sua senha</h2><input type="password" name="confirmasenha" placeholder="Confirme sua Senha" maxlength="30">  
+  <form method="post" action="">
+  <h2>CPF</h2><input type="text" name="cpf" placeholder="Informe o CPF" maxlength="30">
+  <h2>CNPJ da empresa que atua</h2> <input type="text" name="text" placeholder="Informe o CNPJ" maxlength="30">
+  <h2>Nome de Usuário</h2> <input type="text" name="nomeusuario" placeholder="Crie um nome de usuário" maxlength="30">
+  <h2>Senha</h2> <input type="password" name="senha" placeholder="Crie uma senha" maxlength="30">
+  <h2>Confirme sua senha</h2><input type="password" name="confirmasenha" placeholder="Confirme sua Senha" maxlength="30"> 
   <div>
   <input type="submit" value="Limpar" class="grid-2" id="bt1"> 
   <input type="submit" value="Confirmar" class="grid-2">
   </div>
   </form>
 </div>
+</div> <!--div aa-->
+
 
 </html>
