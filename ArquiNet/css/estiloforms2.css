@@ -1,0 +1,56 @@
+/*formulario cadastro profissional*/
+div#form-cad-cliente1{
+	width: 400px;
+	height: 300px;
+	margin-top: 30px;
+	margin-left: 25%;
+	transform: none;
+	background-color: #355C9C;
+}
+div#form-cad-cliente2{
+	width: 400px;
+	height: 300px;
+	margin-top: 30px;
+	margin-left:  20px;
+	background-color: #355C9C;
+}
+body{
+	background-color: #355C9C;
+}
+form{
+	position: absolute;
+}
+
+h1{
+	margin-top: 30px;
+	margin-left: 30px;
+	font-family: Segoe UI;
+	font-size: 30px ;
+	color: #FFFFFF;
+}
+h2{
+	font-family: Segoe UI;
+	font-size: 20px ;
+}
+input{
+	display: block;
+	border-radius: 5px;
+	border-radius: 1px solid black;
+	width: 300px;
+	height: 60px;
+	margin: 10px;
+	padding: 15px 20px;
+}
+
+input[type=submit]{
+	background-color: #FFBF1A;
+	color: #FFFFFF;
+	font-size: 16pt;
+	font-family: Segoe UI;
+	width: 140px;
+	padding: 5px;
+}
+::-webkit-input-placeholder{  /* para mudar a cor do placeholder */
+	color: #355C9C;
+}
+
