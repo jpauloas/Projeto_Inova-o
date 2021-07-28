@@ -12,6 +12,15 @@ img {
   display: block;
 }
 
+gride-fotos {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+}
+
 .btn {
   border: 3px solid #fec63e;
   padding: 10px 30px;
@@ -76,21 +85,19 @@ img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.entrar {
+.header_menu .entrar {
   border: 3px solid #fec63e;
-  border-radius: 5px;
-  background-color: #ffbf1a;
-  padding: 20px 20px;
-  color: #fec63e;
+  border-radius: 10px;
+  padding: 10px 20px;
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
   font-weight: bold;
+  color: #ffffff;
 }
 
-.entrar:hover ul li a {
-  color: #143059;
-  font-weight: bold;
+.header_menu .entrar ul li a:hover {
+  color: #ffffff;
 }
 .header_menu ul li a {
   color: #fff;
@@ -232,8 +239,10 @@ img {
 }
 
 .call {
-  padding-top: 40px;
+  padding-top: 50px;
   text-align: center;
+  width: 950px;
+  height: 140px;
   clear: both;
 }
 

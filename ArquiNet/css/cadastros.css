@@ -1,0 +1,55 @@
+.cadastro {
+  padding: 60px 0;
+}
+
+.cadastro_lista li {
+  border: 5px solid #fec63e;
+  border-radius: 10px;
+  width: 450px;
+  height: 400px;
+  text-align: center;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+/* Necessário para centralizar as imagens */
+.cadastro_lista li img {
+  margin: 0 auto;
+}
+
+.cadastro_lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+}
+
+.cadastro_lista li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 2px auto;
+}
+
+.cadastro_lista li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.cadastro_icone {
+  padding: 20px;
+}
+
+.call {
+  padding-top: 50px;
+  text-align: center;
+  width: 950px;
+  height: 140px;
+  clear: both;
+}
+
+.call p {
+  margin-bottom: 20px;
+}

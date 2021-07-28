@@ -1,0 +1,321 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+}
+.busca {
+  background: url("../img/lupinhabranca.svg") no-repeat center right;
+  padding: 5px;
+  border: none;
+  width: 40px;
+  height: 40px;
+}
+
+.busca:focus {
+  padding: 0px;
+  border: 1px;
+  width: 600px;
+  height: 40px;
+  border-radius: 12px;
+  background: white;
+}
+
+.grid-barra {
+  float: left;
+  margin-left: 0px;
+  margin-right: 10px;
+  width: 422px;
+  height: 100%;
+}
+
+.grid-arquitetos {
+  float: left;
+  margin-left: 0px;
+  margin-right: 5px;
+  margin-top: 0px;
+  width: 30px;
+  height: 30px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #143059;
+  padding: 20px 20px;
+  z-index: 10;
+  margin-bottom: 00px;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.entrar {
+  border: 3px solid #fec63e;
+  border-radius: 5px;
+  background-color: #ffbf1a;
+  padding: 20px 20px;
+  color: #fec63e;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.entrar:hover ul li a {
+  color: #143059;
+  font-weight: bold;
+}
+.header_menu ul li a {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #ffbf1a;
+}
+
+/* Menu de pesquisa */
+
+.tabela {
+  width: 100%;
+  background-color: #143059;
+  margin-top: 63px;
+}
+
+.menu {
+  list-style: none;
+  background: #143059;
+  float: left;
+  width: 100%;
+}
+
+.menu li {
+  position: relative;
+  float: left;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 40px;
+  display: block;
+}
+
+.menu ul a:hover {
+  background: #2f5da1;
+  color: #fff;
+}
+
+.menu li ul {
+  position: absolute;
+  width: 400px;
+  top: 57px;
+  left: 0;
+  background-color: #90abd4;
+  display: none;
+}
+
+.menu li:hover ul,
+.menu li.over ul {
+  display: block;
+  z-index: 40;
+}
+
+.menu li ul li {
+  display: block;
+  width: 200px;
+}
+
+/* barra */
+.check {
+  display: none;
+}
+
+.icone {
+  cursor: pointer;
+  padding: 15px;
+  position: absolute;
+  z-index: 1;
+}
+
+.barra {
+  background-color: #355c9c;
+  height: 100%;
+  width: 422px;
+  position: relative;
+  transition: all 0.2s linear;
+  margin-top: 0px;
+  padding-top: 100px;
+  padding-left: 0px;
+  z-index: 2;
+}
+
+.link {
+  padding: 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  transition: all 0.2s linear;
+  color: #f4f4f9;
+}
+
+.link:hover {
+  background-color: #143059;
+}
+
+#checkbox:checked ~ .barra {
+  transform: translateX(300px);
+}
+
+.barra .usuario {
+  height: 320px;
+  width: 300px;
+}
+.barra .usuario .foto {
+  margin-left: 80px;
+}
+
+.barra .usuario p {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 10px 0;
+  margin-left: 140px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.barra_direita {
+  background-color: blue;
+  width: 800px;
+  height: 800px;
+}
+
+.block {
+  background-color: blueviolet;
+}
+
+/* feed */
+
+.feed_fundo {
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+}
+
+.feed_fundo h3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0em;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: black;
+}
+
+.feed_fundo h4 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.feed_fundo p {
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.feed_fundo .projetinho {
+  border: 3px solid #fec63e;
+  border-radius: 5px;
+  background-color: #ffbf1a;
+}
+
+.feed_fundo .fotos_arquitetos {
+  margin-bottom: 5px;
+}
+/*Footer*/
+
+.footer {
+  width: 100%;
+  background: #e0e0e0;
+  color: #143059;
+  padding: 80px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+
+  color: #143059;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #143059;
+  margin: 6px 0 12px 0;
+}
+
+.footer_contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer_redes ul li a {
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.footer_redes ul li a:hover {
+  border-color: #fff;
+}
+
+.copy {
+  width: 100%;
+  background: #e0e0e0;
+  padding: 20px 0;
+  color: #143059;
+}
